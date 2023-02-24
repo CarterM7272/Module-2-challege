@@ -1,8 +1,80 @@
 * {
   margin: 0;
   padding: 0;
+  width: auto;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Make webpage responsive to viewport (phone, ipad, computer) */
 
-/* Add CSS reset sheet */
+
+header {
+  background-color:rgb(46, 48, 48);
+  height: 80px;
+  border-top: 2px solid rgb(0, 151, 205);
+  position: relative;
+}
+
+.header-left {
+  position: absolute;
+  top: 10px;
+  width: 300px;
+  background-color:rgb(0, 151, 205);
+  height: 60px;
+  padding-right: 10px;
+}
+
+.header-right {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+
+.links {
+  color: rgb(0, 151, 205);
+  font-size: 20px;
+  margin-right: 2px;
+  padding: 2px;
+  bottom: 30px;
+
+}
+
+#name {
+  font-size: 60px;
+  color: black;
+  display: flex;
+  background-color: rgb(0, 151, 205);
+  justify-content: end;
+}
+
+#background-img {
+  background-image: url(https://w0.peakpx.com/wallpaper/1020/956/HD-wallpaper-blue-wooden-planks-wooden-blue-texture-blue-wooden-background-wood.jpg);
+  height: 220px;
+  object-fit: none;
+  width: 1144;
+}
+
+#cool-subtitles {
+  color: rgb(46, 48, 48);
+  background-color:rgb(0, 151, 205);
+  height: 40px;
+  font-size: 40px;
+  position: absolute;
+  right: 20px;
+  bottom: 530px;
+}
+
+.side-descr {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(46, 48, 48);
+}
