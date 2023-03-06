@@ -16,7 +16,7 @@ Welcome to my portfolio page! I made this portfolio to present my current skill-
 
 ## Screenshot
 
-![image](C:\Users\cmark\Downloads\screencapture-carterm7272-github-io-Module-2-challenge-2023-03-06-13_18_05 (1).png)
+![Project Screenshot](./assets/screencapture-carterm7272-github-io-Module-2-challenge-2023-03-06-13_18_05.png)
 
 ## Installation
 ***
